@@ -1,10 +1,10 @@
 {
   "name": "react-native-image-slider-text-box",
   "version": "1.0.0",
-  "description": "A simple and fully customizable React Native component that implements an Image Slider UI.",
+  "description": "A simple and fully customizable React Native component that implements an Image Slider with text UI.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\""
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     "image slider",
     "image paging slider"
   ],
-  "author": "Hamed Taheri",
+  "author": "sandeep",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/intellidev1991/react-native-image-slider-box/issues"

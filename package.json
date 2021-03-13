@@ -31,9 +31,9 @@
   "author": "sandeep",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/intellidev1991/react-native-image-slider-box/issues"
+    "url": "https://github.com/sandeepnayak10/eact-native-image-slider-with-text/issues"
   },
-  "homepage": "https://github.com/intellidev1991/react-native-image-slider-box#readme",
+  "homepage": "https://github.com/sandeepnayak10/eact-native-image-slider-with-text#readme",
   "devDependencies": {
     "metro-react-native-babel-preset": "*"
   },

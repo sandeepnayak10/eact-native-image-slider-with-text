@@ -39,6 +39,25 @@ Well-done.
        |
 | firstItem            | number                                | default is 0 , index of image to display when slider box loads       |
 
+##example:
+const banners=[{'img':'imagestring','buttonText':'buttonText ','title':'title1'},
+                  {'img':'imagestring2','buttonText':'buttonText ','title':'title3'},
+                  {'img':'imagestring3','buttonText':'buttonText ','title':'title3'}]
+```JS<SliderBox
+          images={banners}
+          sliderBoxHeight={height}
+
+          parentWidth={width}
+          onCurrentImagePressed={index => {console.log('index')}}
+          dotColor="#FFEE58"
+          inactiveDotColor="#90A4AE"
+          paginationBoxVerticalPadding={20}
+          autoplay
+          circleLoop
+
+          resizeMode={'cover'}
+        />
+JS```
 ## Notice:
 
 This library use `react-native-snap-carousel` and make easier way to create image slider box with full customization ability.

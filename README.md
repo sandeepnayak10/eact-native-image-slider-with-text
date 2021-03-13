@@ -40,10 +40,11 @@ Well-done.
 | firstItem            | number                                | default is 0 , index of image to display when slider box loads       |
 ---
 ##example:
+
+```javascript
 const banners=[{'img':'imagestring','buttonText':'buttonText ','title':'title1'},
                   {'img':'imagestring2','buttonText':'buttonText ','title':'title3'},
                   {'img':'imagestring3','buttonText':'buttonText ','title':'title3'}]
-```javascript
 <SliderBox
           images={banners}
           sliderBoxHeight={height}
@@ -62,8 +63,8 @@ const banners=[{'img':'imagestring','buttonText':'buttonText ','title':'title1'}
 ---
 ## Notice:
 
-This library use `react-native-snap-carousel` and make easier way to create image slider box with full customization ability.
+This library use `react-native-image-slider-box`  and  make easier way to create image slider box with full customization ability.
 
-See original Library [https://github.com/archriss/react-native-snap-carousel](https://github.com/archriss/react-native-snap-carousel)
+See original Library [https://github.com/intellidev1991/react-native-image-slider-box](https://github.com/intellidev1991/react-native-image-slider-box#readme)
 
 we dont edit or modify original library, we just use it with some additional style. (BSD 3 License)

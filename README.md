@@ -38,12 +38,13 @@ Well-done.
 | ImageLoader            | React component, default as `ActivityIndicator`                                | default value is React-native ActivityIndicator.
        |
 | firstItem            | number                                | default is 0 , index of image to display when slider box loads       |
-
+---
 ##example:
 const banners=[{'img':'imagestring','buttonText':'buttonText ','title':'title1'},
                   {'img':'imagestring2','buttonText':'buttonText ','title':'title3'},
                   {'img':'imagestring3','buttonText':'buttonText ','title':'title3'}]
-```JS<SliderBox
+```javascript
+<SliderBox
           images={banners}
           sliderBoxHeight={height}
 
@@ -57,7 +58,8 @@ const banners=[{'img':'imagestring','buttonText':'buttonText ','title':'title1'}
 
           resizeMode={'cover'}
         />
-JS```
+```
+---
 ## Notice:
 
 This library use `react-native-snap-carousel` and make easier way to create image slider box with full customization ability.

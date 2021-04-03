@@ -8,7 +8,7 @@
    > npm i react-native-image-slider-with-text
 
    > yarn add react-native-image-slider-with-text
-Well-done.
+
 
 ## Usage :
 

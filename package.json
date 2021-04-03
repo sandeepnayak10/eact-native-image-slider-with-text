@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-slider-text-box",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple and fully customizable React Native component that implements an Image Slider with text UI.",
   "main": "index.js",
   "scripts": {
